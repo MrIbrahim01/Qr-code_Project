@@ -1,0 +1,36 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:	#d6e2f0;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+}
+div{
+    padding: 10px 10px 30px 10px;
+    background-color: white;
+    width: 18%;
+    /* height: 400px; */
+    margin: 150px auto;
+    border-radius: 20px;
+}
+img{
+    /* width: 280px; */
+    width: 90%;
+    border-radius: 20px;
+
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: 	#7b879d;
+}
+h1{
+    font-size: 1.5rem;
+    color: 	#1f3251;
+}
+@media only screen and (max-width:414px){
+    div{
+        width: 90%;
+    }
+}
